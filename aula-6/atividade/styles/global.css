@@ -13,7 +13,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box
+  align-items: center;
 }
 
 body {
@@ -71,7 +72,6 @@ section {
     inset 0 0 40px rgba(122, 74, 29, 0.35),
     0 6px 0 rgba(0, 0, 0, 0.35);
   text-align: center;
-  /* flex em coluna: o conteúdo fica centralizado quando a área estica */
   display: flex;
   flex-direction: column;
   justify-content: center;

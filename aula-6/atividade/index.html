@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Pirata+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="icon" href="./images/block.png" type="image/x-icon">
+  <title>One Piece on your way</title>
+</head>
+<body>
+  <!-- A página inteira é um grid: cada filho direto é uma área nomeada -->
+  <div class="container-grid-area">
+
+    <header class="item-cabecalho">
+      <h1>Make your One Piece Character</h1>
+    </header>
+
+    <aside class="item-artigo">
+      <h2>Nesta página</h2>
+      <nav>
+        <ul>
+          <li><a href="#block">Display block</a></li>
+          <li><a href="#inline">Display inline</a></li>
+          <li><a href="#inline-block">Display inline-block</a></li>
+          <li><a href="#flex">Display flex</a></li>
+          <li><a href="#grid">Display grid</a></li>
+          <li><a href="#grid-area">Display grid area</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <section id="block" class="item-classe">
+      <h2>Sua Classe</h2>
+      <div class="container-block">
+        <div class="item">Capitão</div>
+        <div class="item">Espadachim</div>
+        <div class="item">Navegadora</div>
+      </div>
+      <p>Esse é seu papel no seu bando</p>
+    </section>
+
+    <section id="inline" class="item-representante">
+      <h2>Seu representante:</h2>
+      <div class="container-inline">
+        <div class="item">Coby (Marinha)</div>
+        <div class="item">Sabo (Revolucionário)</div>
+        <div class="item">Luffy (Pirata)</div>
+      </div>
+      <p>Qual caminho você irá trilhar</p>
+    </section>
+
+    <section id="inline-block" class="item-fruta">
+      <h2>Sua Fruta</h2>
+      <div class="container-inline-block">
+        <div class="item">Gomu-Gomu no Mi (Modelo Nika)</div>
+        <div class="item">Hito-Hito no Mi</div>
+        <div class="item">Goro-Goro no Mi</div>
+        <div class="item">Nenhuma</div>
+      </div>
+      <p>Ela define sua habilidade característica</p>
+    </section>
+
+    <section id="flex" class="item-flex">
+      <h2>Display flex</h2>
+      <div class="container-flex">
+        <div class="item">Luffy</div>
+        <div id="item-2" class="item">Zoro</div>
+        <div id="item-3" class="item">Nami</div>
+        <div class="item">Usopp</div>
+        <div class="item">Sanji</div>
+        <div class="item">Chopper</div>
+      </div>
+      <p>Elementos ficam flexíveis e se organizam em uma direção</p>
+    </section>
+
+    <section id="grid" class="item-grid">
+      <h2>Seu braço direito</h2>
+      <div class="container-grid">
+        <div class="item">Ace</div>
+        <div class="item">Zoro</div>
+        <div class="item">Rayleigh</div>
+        <div class="item">Usopp</div>
+        <div class="item">Sanji</div>
+        <div class="item">Killer</div>
+        <div class="item">Bepo</div>
+        <div class="item">Franky</div>
+        <div class="item">Brook</div>
+      </div>
+      <p>Elementos ficam posicionados em linhas e colunas</p>
+    </section>
+
+    <footer class="item-rodape">
+      <p>Todos os direitos reservados &copy; para David Modesto.   PS: O site segue em desenvolvimento por favor aguarde para mais atualizações</p>
+    </footer>
+
+  </div>
+</body>
+</html>
